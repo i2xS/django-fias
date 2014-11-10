@@ -3,7 +3,7 @@ INSERT INTO fias_addrobjindex (aoguid, aolevel, scname, fullname, item_weight)
 (SELECT DISTINCT (ao.aoguid) AS aoguid,
     ao.aolevel,
     sn.socrname AS scname,
-    concat(ao.shortname, " ", ao.formalname) AS fullname,
+    if(sn.position = 0,concat(lcase(sn.socrname), " ", ao.formalname), concat(ao.formalname, " ", lcase(sn.socrname))) AS fullname,
     sn.item_weight
     FROM fias_addrobj AS ao
       INNER JOIN fias_socrbase AS sn ON (sn.scname = ao.shortname AND sn.level = ao.aolevel)

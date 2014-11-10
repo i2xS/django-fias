@@ -22,6 +22,7 @@ class SocrBase(models.Model):
     kod_t_st = models.PositiveIntegerField(primary_key=True)
 
     item_weight = models.PositiveSmallIntegerField(default=64)
+    position = models.SmallIntegerField(default=0, verbose_name=u'Позиция, 0 - Слева, 1 - Справа')
 
     def __unicode__(self):
         return self.socrname
