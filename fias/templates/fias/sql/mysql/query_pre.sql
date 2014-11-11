@@ -63,7 +63,7 @@ UNION
 
         INNER JOIN fias_socrbase AS sn1 ON (sn1.scname = ao1.shortname AND sn1.level = ao1.aolevel)
         INNER JOIN fias_socrbase AS sn2 ON (sn2.scname = ao2.shortname AND sn2.level = ao2.aolevel)
-        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao2.shortname AND sn3.level = ao2.aolevel)
+        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao3.shortname AND sn3.level = ao3.aolevel)
         INNER JOIN fias_socrbase AS sn4 ON (sn4.scname = ao4.shortname AND sn4.level = ao4.aolevel)
     WHERE ao1.aolevel=1)
 
@@ -92,7 +92,7 @@ UNION
 
         INNER JOIN fias_socrbase AS sn1 ON (sn1.scname = ao1.shortname AND sn1.level = ao1.aolevel)
         INNER JOIN fias_socrbase AS sn2 ON (sn2.scname = ao2.shortname AND sn2.level = ao2.aolevel)
-        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao2.shortname AND sn3.level = ao2.aolevel)
+        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao3.shortname AND sn3.level = ao3.aolevel)
         INNER JOIN fias_socrbase AS sn4 ON (sn4.scname = ao4.shortname AND sn4.level = ao4.aolevel)
         INNER JOIN fias_socrbase AS sn5 ON (sn5.scname = ao5.shortname AND sn5.level = ao5.aolevel)
     WHERE ao1.aolevel=1)
@@ -125,7 +125,7 @@ UNION
 
         INNER JOIN fias_socrbase AS sn1 ON (sn1.scname = ao1.shortname AND sn1.level = ao1.aolevel)
         INNER JOIN fias_socrbase AS sn2 ON (sn2.scname = ao2.shortname AND sn2.level = ao2.aolevel)
-        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao2.shortname AND sn3.level = ao2.aolevel)
+        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao3.shortname AND sn3.level = ao3.aolevel)
         INNER JOIN fias_socrbase AS sn4 ON (sn4.scname = ao4.shortname AND sn4.level = ao4.aolevel)
         INNER JOIN fias_socrbase AS sn5 ON (sn5.scname = ao5.shortname AND sn5.level = ao5.aolevel)
         INNER JOIN fias_socrbase AS sn6 ON (sn6.scname = ao6.shortname AND sn6.level = ao6.aolevel)
@@ -162,7 +162,7 @@ UNION
 
         INNER JOIN fias_socrbase AS sn1 ON (sn1.scname = ao1.shortname AND sn1.level = ao1.aolevel)
         INNER JOIN fias_socrbase AS sn2 ON (sn2.scname = ao2.shortname AND sn2.level = ao2.aolevel)
-        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao2.shortname AND sn3.level = ao2.aolevel)
+        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao3.shortname AND sn3.level = ao3.aolevel)
         INNER JOIN fias_socrbase AS sn4 ON (sn4.scname = ao4.shortname AND sn4.level = ao4.aolevel)
         INNER JOIN fias_socrbase AS sn5 ON (sn5.scname = ao5.shortname AND sn5.level = ao5.aolevel)
         INNER JOIN fias_socrbase AS sn6 ON (sn6.scname = ao6.shortname AND sn6.level = ao6.aolevel)
@@ -203,7 +203,7 @@ UNION
 
         INNER JOIN fias_socrbase AS sn1 ON (sn1.scname = ao1.shortname AND sn1.level = ao1.aolevel)
         INNER JOIN fias_socrbase AS sn2 ON (sn2.scname = ao2.shortname AND sn2.level = ao2.aolevel)
-        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao2.shortname AND sn3.level = ao2.aolevel)
+        INNER JOIN fias_socrbase AS sn3 ON (sn3.scname = ao3.shortname AND sn3.level = ao3.aolevel)
         INNER JOIN fias_socrbase AS sn4 ON (sn4.scname = ao4.shortname AND sn4.level = ao4.aolevel)
         INNER JOIN fias_socrbase AS sn5 ON (sn5.scname = ao5.shortname AND sn5.level = ao5.aolevel)
         INNER JOIN fias_socrbase AS sn6 ON (sn6.scname = ao6.shortname AND sn6.level = ao6.aolevel)
