@@ -18,7 +18,13 @@ class SphinxItConfig(BaseSearchConfig):
     })
 
 
+class UncicodeSearch(Search):
+
+    def lex(self):
+        return super(UncicodeSearch, self).lex().encode('utf-8')
+
+
 def _get_search():
-    return Search(indexes=[FIAS_SPHINX_ADDROBJ_INDEX], config=SphinxItConfig)
+    return UncicodeSearch(indexes=[FIAS_SPHINX_ADDROBJ_INDEX], config=SphinxItConfig)
 
 search = _get_search
