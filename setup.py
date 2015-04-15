@@ -14,7 +14,7 @@ if PY3:
     ]
 else:
     extra_requirements = [
-        'django_select2>=4.2.2',
+        # 'django_select2>=4.2.2',
         'suds>=0.4',
     ]
 
