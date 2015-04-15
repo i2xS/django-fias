@@ -26,7 +26,7 @@ class AddressField(ForeignKey):
         defaults = {
             'queryset': self.rel.to._default_manager.using(db),
             'to_field_name': self.rel.field_name,
-            'form_class': forms.AddressSelect2Field,
+            # 'form_class': forms.AddressSelect2Field,
             'data_view': FIAS_SUGGEST_VIEW,
         }
         defaults.update(kwargs)

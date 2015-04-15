@@ -8,7 +8,7 @@ from fias.views import (SuggestAddressViewStepByStep,
                         GetAreasListView)
 
 urlpatterns = patterns('',
-                       url(r'^suggest_sbs', SuggestAddressViewStepByStep.as_view(), name='suggest_step_by_step'),
-                       url(r'^suggest_sphinx', SuggestBySphinx.as_view(), name='suggest_by_sphinx'),
-                       url(r'^get_areas_list', GetAreasListView.as_view(), name='get_areas_list'),
+                       # url(r'^suggest_sbs', SuggestAddressViewStepByStep.as_view(), name='suggest_step_by_step'),
+                       # url(r'^suggest_sphinx', SuggestBySphinx.as_view(), name='suggest_by_sphinx'),
+                       # url(r'^get_areas_list', GetAreasListView.as_view(), name='get_areas_list'),
 )
